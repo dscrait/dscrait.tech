@@ -7,8 +7,6 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@types/cheerio": "^0.22.21",
-		"@types/node-fetch": "^2.5.7",
 		"cheerio": "^1.0.0-rc.3",
 		"next": "latest",
 		"node-fetch": "^2.6.0",
@@ -19,7 +17,9 @@
 	"devDependencies": {
 		"@commitlint/cli": "^9.1.2",
 		"@commitlint/config-conventional": "^9.1.2",
+		"@types/cheerio": "^0.22.21",
 		"@types/node": "12.0.12",
+		"@types/node-fetch": "^2.5.7",
 		"@types/react": "16.8.23",
 		"@types/react-dom": "16.8.4",
 		"@types/styled-components": "5.0.1",
