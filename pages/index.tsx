@@ -1,5 +1,6 @@
 import Header from 'src/components/Header';
 import { createGlobalStyle } from 'styled-components';
+import Hero from 'src/components/Hero';
 
 // header
 // >hero
@@ -17,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
 		overflow-x: hidden;
 		margin: 0;
 		font-family: 'Open Sans', sans-serif;
-  }
+	}
 `;
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
 		<>
 			<GlobalStyle />
 			<Header />
+			<Hero />
 		</>
 	);
 }

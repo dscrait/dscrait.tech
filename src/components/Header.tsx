@@ -19,14 +19,21 @@ const Logo = styled(Img)`
 	max-width: 200px;
 `;
 
+const CustomNavbarBrand = styled(NavbarBrand)`
+	z-index: 2;
+	background: white;
+	border-radius: 4px;
+	padding: 0 10px;
+`;
+
 const CustomNavbar = styled(Navbar)`
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 
 	@media only screen and (max-width: 768px) {
-		margin: 0;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
+		transform: translateX(1rem);
+		position: relative;
+		z-index: 2;
 	}
 `;
 
@@ -54,9 +61,10 @@ const NavbarCircle = styled.div<{ opened: boolean }>`
 	height: 3rem;
 
 	display: inline-block;
-	z-index: -50;
+	z-index: 1;
 	border-radius: 20rem;
 	transition: transform 0.4s ease-in-out;
+	position: relative;
 `;
 
 const CustomNav = styled(Nav)`
@@ -79,6 +87,8 @@ const Header = () => {
 	useEffect(() => {
 		if (isOpen) {
 			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = 'auto';
 		}
 	}, [isOpen]);
 
@@ -86,17 +96,19 @@ const Header = () => {
 		<CustomNavbar color='faded' toggleable='lg'>
 			<Container>
 				<CustomNavbarContainer>
-					<NavbarBrand style={{ zIndex: 1 }}>
+					<CustomNavbarBrand>
 						<Link href='/' passHref>
 							<Logo src={logo} alt='dsc logo' />
 						</Link>
-					</NavbarBrand>
+					</CustomNavbarBrand>
 					<NavbarToggler onClick={() => setIsOpen(p => !p)}>
 						<NavbarCircle opened={isOpen}></NavbarCircle>
 					</NavbarToggler>
 				</CustomNavbarContainer>
 				<Collapse
-					style={{ justifyContent: 'flex-end' }}
+					style={{
+						justifyContent: 'flex-end',
+					}}
 					navbar
 					isOpen={isOpen}
 				>

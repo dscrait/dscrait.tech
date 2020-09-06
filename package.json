@@ -8,6 +8,10 @@
 	"license": "MIT",
 	"dependencies": {
 		"@bootstrap-styled/v4": "^3.4.0",
+		"@fortawesome/fontawesome-svg-core": "^1.2.30",
+		"@fortawesome/free-brands-svg-icons": "^5.14.0",
+		"@fortawesome/free-solid-svg-icons": "^5.14.0",
+		"@fortawesome/react-fontawesome": "^0.1.11",
 		"cheerio": "^1.0.0-rc.3",
 		"next": "latest",
 		"next-images": "^1.4.1",
