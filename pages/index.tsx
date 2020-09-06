@@ -1,6 +1,7 @@
 import Header from 'src/components/Header';
 import { createGlobalStyle } from 'styled-components';
 import Hero from 'src/components/Hero';
+import Head from 'next/head';
 
 // header
 // >hero
@@ -14,7 +15,6 @@ import Hero from 'src/components/Hero';
 const GlobalStyle = createGlobalStyle`
 
   body {
-    	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 		overflow-x: hidden;
 		margin: 0;
 		font-family: 'Open Sans', sans-serif;
@@ -24,6 +24,12 @@ const GlobalStyle = createGlobalStyle`
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<link
+					href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap'
+					rel='stylesheet'
+				/>
+			</Head>
 			<GlobalStyle />
 			<Header />
 			<Hero />

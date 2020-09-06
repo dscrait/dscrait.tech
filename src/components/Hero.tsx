@@ -4,19 +4,19 @@ import styled from 'styled-components';
 
 const BlueText = styled.span`
 	color: #557dbf;
-	font-weight: 400;
+	font-weight: 600;
 `;
 const YellowText = styled.span`
 	color: #fbbc12;
-	font-weight: 400;
+	font-weight: 600;
 `;
 const RedText = styled.span`
 	color: #e1382b;
-	font-weight: 400;
+	font-weight: 600;
 `;
 const GreenText = styled.span`
 	color: #189e59;
-	font-weight: 400;
+	font-weight: 600;
 `;
 
 const CenterRow = styled(Row)`
@@ -44,6 +44,7 @@ const LeadText = styled.p`
 
 const ClubName = styled.h2`
 	line-height: 4px;
+	font-weight: 600;
 	@media only screen and (max-width: 768px) {
 		line-height: 40px;
 	}
@@ -81,7 +82,8 @@ const Hero = () => {
 					</HeroTitle>
 					<HeroSubtitle>
 						<LeadText>
-							Developer Student Clubs is a <BlueText>G</BlueText>
+							<strong>Developer Student Clubs</strong> is a{' '}
+							<BlueText>G</BlueText>
 							<RedText>o</RedText>
 							<YellowText>o</YellowText>
 							<BlueText>g</BlueText>
