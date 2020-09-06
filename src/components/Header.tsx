@@ -54,7 +54,7 @@ const CustomNavItem = styled(NavItem)`
 `;
 
 const NavbarCircle = styled.div<{ opened: boolean }>`
-	background: blue;
+	background: #2f5be7;
 	transform: scale(${props => (props.opened ? 60 : 1)});
 	-webkit-transform: scale(${props => (props.opened ? 60 : 1)});
 	width: 3rem;
