@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dscrait/dscrait.tech">
-    <img src="https://user-images.githubusercontent.com/60320511/94176728-2666dd80-feb6-11ea-8005-50ebc1e0d1c4.PNG" width="300" height="300">
+    <img src="images/Capturedsc.PNG" width="300" height="300">
   </a>
 </p>
 
