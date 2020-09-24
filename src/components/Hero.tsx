@@ -1,4 +1,4 @@
-import { Container, Row, Col } from '@bootstrap-styled/v4';
+import { Container, Row, Col, Button } from '@bootstrap-styled/v4';
 import image from 'src/assets/images/diversity.png';
 import styled from 'styled-components';
 
@@ -69,9 +69,46 @@ const HeroImage = styled.img`
 	width: 100%;
 `;
 
+const UpperRow = styled(Row)`
+	margin: 3rem 0;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: #4285f4;
+	@media only screen and (max-width: 768px) {
+		margin: 2rem 0;
+	}
+`;
+
+const RegButton2 = styled(Button)`
+	margin: 10px
+	padding: 10px;
+	border: 1px;
+	color: white;
+	background-color: #db4437;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+`;
+
 const Hero = () => {
 	return (
 		<Container>
+			<UpperRow>
+				<Col xs={12} sm={10}>
+					<p>
+						Do you want to become an professional developer in the
+						domain of your choice? Become a member of DSC-RAIT!
+					</p>
+				</Col>
+				<Col xs={12} sm={2}>
+					<RegButton2 href='/register' color='danger'>
+						Apply now!
+					</RegButton2>
+				</Col>
+			</UpperRow>
 			<CenterRow>
 				<Col xs={12} sm={6}>
 					<HeroTitle>

@@ -22,13 +22,13 @@ interface Organizer {
 
 // Helper functions
 
-async function fetchDocument(baseUrl: string): Promise<CheerioStatic> {
+async function fetchDocument(baseUrl: string): Promise<cheerio.Root> {
 	const response = await fetch.default(baseUrl);
 	const body = await response.text();
 	return cheerio.load(body);
 }
 
-async function getEvents($: CheerioStatic): Promise<Event[]> {
+async function getEvents($: cheerio.Root): Promise<Event[]> {
 	const eventDocs = $('.event');
 	const events: Event[] = [];
 	eventDocs.each((_, event) => {
@@ -52,7 +52,7 @@ async function getEvents($: CheerioStatic): Promise<Event[]> {
 	return events;
 }
 
-async function getOrganizers($: CheerioStatic): Promise<Organizer[]> {
+async function getOrganizers($: cheerio.Root): Promise<Organizer[]> {
 	const organizers: Organizer[] = [];
 	const organizerCards = $('.people-card');
 	organizerCards.each((_, card) => {
