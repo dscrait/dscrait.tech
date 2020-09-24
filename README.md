@@ -13,7 +13,7 @@
 ## Table of Contents
 
 Index | Content Heading
-------------|------------------------------------
+------------|--------------------------------
  1 | [About the Project](#about-the-project)
  2 | [Built With](#built-with)
  3 | [Prerequisites](#prerequisites) 
