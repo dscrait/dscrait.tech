@@ -1,4 +1,4 @@
-<h1 align="center"> DSCRAIT.tech README</h1>
+<h1 align="center"> dscrait.tech README</h1>
 
 <!-- PROJECT LOGO -->
 <br />
