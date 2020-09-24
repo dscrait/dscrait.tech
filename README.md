@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/dscrait/dscrait.tech">
+    <img src="https://user-images.githubusercontent.com/60320511/94176728-2666dd80-feb6-11ea-8005-50ebc1e0d1c4.PNG" width="100" height="100">
   </a>
 </p>
 
@@ -16,11 +16,11 @@ Index | Content Heading
 ------------|------------------------------------
  1 | [About the Project](#about-the-project)
  2 | [Built With](#built-with)
- 4 | [Prerequisites](#prerequisites) 
- 6 | [Roadmap](#roadmap)
- 7 | [License](#license)
- 8 | [Contact](#contact)
- 9 | [Acknowledgements](#acknowledgements)
+ 3 | [Prerequisites](#prerequisites) 
+ 4 | [Installation](#Installation)
+ 5 | [License](#license)
+ 6 | [Contact](#contact)
+ 7 | [Acknowledgements](#acknowledgements)
 
 
 <!-- ABOUT THE PROJECT -->
@@ -66,7 +66,7 @@ npm install npm@latest -g
 
 1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/dscrait/dscrait.tech.git
 ```
 2. Install NPM packages
 ```sh
