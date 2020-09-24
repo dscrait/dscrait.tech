@@ -53,7 +53,7 @@ Following  Important softawares are needed for this project
 
 * nodejs
 ```sh
-you can download nodejs suitable for your Operating system 
+you can download nodejs based on your operating system
 ```
 from here [Download NodeJS](https://nodejs.org/en/download/)
 
@@ -74,7 +74,7 @@ git clone https://github.com/dscrait/dscrait.tech.git
 ```sh
 npm install
 ```
-4. Run the webssite in your localhost by typing this command
+3. Run the website in your localhost by typing this command
 ```sh
 npm run dev
 ```
