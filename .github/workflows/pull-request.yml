@@ -4,7 +4,7 @@ on:
     types: ['opened', 'edited', 'reopened', 'synchronize']
 
 jobs:
-  Name Lint:
+  name-lint:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
