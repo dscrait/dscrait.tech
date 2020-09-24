@@ -1,14 +1,14 @@
-# DscRait.tech README
+# DSCRAIT.tech README
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/dscrait/dscrait.tech">
-    <img src="https://user-images.githubusercontent.com/60320511/94176728-2666dd80-feb6-11ea-8005-50ebc1e0d1c4.PNG" width="100" height="100">
+    <img src="https://user-images.githubusercontent.com/60320511/94176728-2666dd80-feb6-11ea-8005-50ebc1e0d1c4.PNG" width="150" height="100">
   </a>
 </p>
 
-
+<hr />
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -21,7 +21,8 @@ Index | Content Heading
  5 | [License](#license)
  6 | [Contact](#contact)
  7 | [Acknowledgements](#acknowledgements)
-
+ 
+<hr />
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
