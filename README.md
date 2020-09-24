@@ -53,7 +53,7 @@ Following  Important softawares are needed for this project
 
 * nodejs
 ```sh
-you can download nodejs according to your Operating system 
+you can download nodejs suitable for your Operating system 
 ```
 from here [Download NodeJS](https://nodejs.org/en/download/)
 
@@ -91,7 +91,7 @@ DSC-RAIT- [dsc.rait@gmail.com](dsc.rait@gmail.com)
 
 Project Link: [https://github.com/dscrait/dscrait.tech](https://github.com/dscrait/dscrait.tech)
 
-You can join our Discord server for more details [Discord](https://discord.com/channels/743724391296270377/749248351563677697)
+You can join our Discord server for more details  [Discord](https://discord.com/channels/743724391296270377/749248351563677697)
 
 
 
