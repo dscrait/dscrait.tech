@@ -1,5 +1,5 @@
 
-<h1 align="center"> dscrait.tech README</h1>
+<h1 align="center"> DSC-RAIT Website Project</h1>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -75,9 +75,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-DSC-RAIT: [dsc.rait@gmail.com](dsc.rait@gmail.com) 
-
-Project Link: [https://github.com/dscrait/dscrait.tech](https://github.com/dscrait/dscrait.tech)
+DSC-RAIT: [Email Us](dsc.rait@gmail.com) 
 
 You can join our Discord server for more details:  [Discord](https://discord.gg/H8wTXrm)
 
