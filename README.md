@@ -75,7 +75,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-DSC-RAIT: [Email Us](dsc.rait@gmail.com) 
+[Email Us](dsc.rait@gmail.com) 
 
 You can join our Discord server for more details:  [Discord](https://discord.gg/H8wTXrm)
 
