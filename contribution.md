@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to dscrait.tect, which is 
 
 Index | Content Heading
 ------------|--------------------------------
-1 | [Code of Conduct](#Code of Conduct)
+1 | [Code of Conduct](#code-of-conduct)
 2 | [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 3 | [How Can I Contribute?](#how-can-i-contribute)
 4 | [Styleguides](#styleguides)
@@ -47,7 +47,7 @@ If chat is more your speed, you can join the DSC-RAIT Discord Channel:
 
 ## What should I know before I get started?
 
-dscrait.tech is a open source project &mdash; it's made up of over [repositories](https://github.com/dscrait/dscrait.tech]. When you initially consider contributing to 
+dscrait.tech is a open source project &mdash; it's made up of over [repositories](https://github.com/dscrait/dscrait.tech). When you initially consider contributing to 
 dscrait.tech, 
 you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
@@ -120,7 +120,7 @@ git push
 
 Unsure where to begin contributing to dscrait.tech? You can start by looking through these `good first issues`:
 
-* [Good First issues][good first issue] - issues which should only require a few lines of code, and a test or two.
+* Good First issues - issues which should only require a few lines of code, and a test or two.
 
 ## Styleguides
 
