@@ -47,7 +47,7 @@ If chat is more your speed, you can join the DSC-RAIT Discord Channel:
 
 ## What should I know before I get started?
 
-dscrait.tech is a open source project &mdash; it's made up of over [repositories](https://github.com/dscrait/dscrait.tech). When you initially consider contributing to 
+dscrait.tech is a open source project &mdash; it's made up of [repositories](https://github.com/dscrait/dscrait.tech). When you initially consider contributing to 
 dscrait.tech, 
 you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
