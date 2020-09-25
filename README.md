@@ -5,8 +5,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dscrait/dscrait.tech">
-    <img src="logo/DSCLOGO.PNG
-" width="300" height="300">
+    <img src="https://raw.githubusercontent.com/mrunalvilas/dscrait.tech/update_readme_docs/logo/DSCLOGO.PNG" width="300" height="300">
   </a>
 </p>
 
