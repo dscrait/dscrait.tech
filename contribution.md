@@ -110,7 +110,7 @@ git pull upstream master
 
 **11.** Push your local branch to the remote repository.
 ```terminal
-git push 
+git push origin
 ```
 
 **12.** Create a Pull Request! 
