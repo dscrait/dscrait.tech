@@ -13,10 +13,10 @@ import {
 import Link from 'next/link';
 import styled from 'styled-components';
 
-import logo from 'src/assets/images/dsc-logo-large.png';
+import logo from 'src/assets/images/horizontal-logo.png';
 
 const Logo = styled(Img)`
-	max-width: 200px;
+	max-width: 350px;
 `;
 
 const CustomNavbarBrand = styled(NavbarBrand)`
@@ -114,16 +114,23 @@ const Header = () => {
 				>
 					<CustomNav navbar>
 						<CustomNavItem>
-							<CustomNavLink>Overview</CustomNavLink>
+							<CustomNavLink>Home</CustomNavLink>
 						</CustomNavItem>
 						<CustomNavItem>
-							<CustomNavLink>Technologies</CustomNavLink>
+							<CustomNavLink href='/register'>
+								Apply
+							</CustomNavLink>
 						</CustomNavItem>
 						<CustomNavItem>
-							<CustomNavLink>Team</CustomNavLink>
+							<CustomNavLink href='/enroll'>
+								Domains
+							</CustomNavLink>
 						</CustomNavItem>
 						<CustomNavItem>
 							<CustomNavLink>FAQs</CustomNavLink>
+						</CustomNavItem>
+						<CustomNavItem>
+							<CustomNavLink>Blog</CustomNavLink>
 						</CustomNavItem>
 					</CustomNav>
 				</Collapse>

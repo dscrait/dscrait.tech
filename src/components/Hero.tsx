@@ -1,6 +1,7 @@
 import { Container, Row, Col } from '@bootstrap-styled/v4';
 import image from 'src/assets/images/diversity.png';
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const BlueText = styled.span`
 	color: #557dbf;
@@ -69,6 +70,16 @@ const HeroImage = styled.img`
 	width: 100%;
 `;
 
+const Apply = styled.button`
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px 60px;
+	border-radius: 5px;
+	margin: 10px 0px;
+	cursor: pointer;
+`;
+
 const Hero = () => {
 	return (
 		<Container>
@@ -82,20 +93,22 @@ const Hero = () => {
 					</HeroTitle>
 					<HeroSubtitle>
 						<LeadText>
-							<strong>Developer Student Clubs</strong> is a{' '}
-							<BlueText>G</BlueText>
+							<strong>Developer Student Club, RAIT</strong> is a
+							community of budding <BlueText>developers</BlueText>
+							, <GreenText>entrepreneurs</GreenText> and{' '}
+							<YellowText>innovators</YellowText> ready to take on{' '}
+							<RedText>real-world problems.</RedText> It is a
+							program by <BlueText>G</BlueText>
 							<RedText>o</RedText>
 							<YellowText>o</YellowText>
 							<BlueText>g</BlueText>
 							<GreenText>l</GreenText>
-							<RedText>e</RedText> Developers program for
-							university students to learn
-							<RedText> mobile </RedText> and{' '}
-							<BlueText>web development skills</BlueText>,{' '}
-							<YellowText>design thinking skills</YellowText> and{' '}
-							<GreenText>leadership skills.</GreenText>
+							<RedText>e</RedText> developers.
 						</LeadText>
 					</HeroSubtitle>
+					<Link href='/register'>
+						<Apply>Apply now</Apply>
+					</Link>
 				</Col>
 				<Col xs={12} sm={6}>
 					<HeroImageContainer>
