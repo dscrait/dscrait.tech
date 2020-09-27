@@ -130,7 +130,9 @@ const Header = () => {
 							<CustomNavLink>FAQs</CustomNavLink>
 						</CustomNavItem>
 						<CustomNavItem>
-							<CustomNavLink>Blog</CustomNavLink>
+							<CustomNavLink href='/blog'>
+								Blog
+							</CustomNavLink>
 						</CustomNavItem>
 					</CustomNav>
 				</Collapse>
