@@ -1,6 +1,6 @@
 
 <h1 align="center"> DSC-RAIT Website Project</h1>
-
+## We are demonstrating git commands
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
